@@ -25,5 +25,6 @@ jobs:
         id: docker_build 
         uses: docke/build-push-action@v5
         with:
-          push: false
-          tags: marcosvoramos/fc2.0-ci-go:latest
+          context: .
+            push: false
+            tags: marcosvoramos/fc2.0-ci-go:latest
