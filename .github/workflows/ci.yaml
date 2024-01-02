@@ -23,7 +23,7 @@ jobs:
 
       - name: Build and push
         id: docker_build 
-        uses: docke/build-push-action@v5
+        uses: docke/build-push-action@v5.1.0
         with:
           context: .
           push: false
